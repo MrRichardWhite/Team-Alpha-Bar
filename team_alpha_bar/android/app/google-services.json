@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "59357451653",
+    "project_id": "team-alpha-bar",
+    "storage_bucket": "team-alpha-bar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59357451653:android:3d2ab6f6f04d2574ada0ec",
+        "android_client_info": {
+          "package_name": "com.example.team_alpha_bar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmhcshXErmoQwgQy3z3L47IG5GGNRkN7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
