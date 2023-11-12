@@ -16,7 +16,7 @@ extension StringCasingExtension on String {
 
 class LoginPage extends StatefulWidget {
   final Function()? onTap;
-  LoginPage({
+  const LoginPage({
     super.key,
     required this.onTap,
   });
@@ -36,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
     showDialog(
       context: context,
       builder: (context) {
-        return Center(
+        return const Center(
           child: CircularProgressIndicator(),
         );
       },
@@ -163,7 +163,7 @@ class _LoginPageState extends State<LoginPage> {
                     imagePath: "lib/images/google.png",
                   ),
 
-                  SizedBox(width: 25),
+                  const SizedBox(width: 25),
 
                   // apple button
                   SquareTile(

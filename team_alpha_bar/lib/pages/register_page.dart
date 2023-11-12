@@ -1,9 +1,7 @@
 import "package:flutter/material.dart";
 import "package:team_alpha_bar/components/my_button.dart";
 import "package:team_alpha_bar/components/my_textfield.dart";
-import "package:team_alpha_bar/components/square_tile.dart";
 import "package:firebase_auth/firebase_auth.dart";
-import "package:team_alpha_bar/services/auth_service.dart";
 
 extension StringCasingExtension on String {
   String toCapitalized() =>
@@ -16,7 +14,7 @@ extension StringCasingExtension on String {
 
 class RegisterPage extends StatefulWidget {
   final Function()? onTap;
-  RegisterPage({
+  const RegisterPage({
     super.key,
     required this.onTap,
   });
@@ -37,7 +35,7 @@ class _RegisterPageState extends State<RegisterPage> {
     showDialog(
       context: context,
       builder: (context) {
-        return Center(
+        return const Center(
           child: CircularProgressIndicator(),
         );
       },
